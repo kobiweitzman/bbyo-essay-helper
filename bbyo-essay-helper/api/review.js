@@ -16,7 +16,7 @@ import { SYSTEM_PROMPT } from "../lib/systemPrompt.js";
 
 // VERIFY THIS in Google AI Studio. As of now the most capable free model is
 // gemini-2.5-pro. If Google renames it, change this one line.
-const GEMINI_MODEL = "gemini-2.5-pro";
+const GEMINI_MODEL = "gemini-2.5-flash";
 
 const MAX_ESSAY_CHARS = 15000;   // a college essay is ~4000 chars. generous headroom, blocks abuse.
 const MAX_PROMPT_CHARS = 3000;
